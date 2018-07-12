@@ -1,0 +1,30 @@
+
+h1,h2 {
+  margin: $hMargin;
+  font-size: $hSize;
+  line-height: $hLineheight;
+  font-weight: $hWeight;
+  color: $hColor;
+  padding: $hPadding;
+}
+
+// Subheader
+h3{
+  margin: $ShMargin;
+  padding: $ShPadding;
+  font-size: $ShSize;
+  line-height: $ShLineheight;
+  font-weight: $ShWeight;
+  color: $ShColor;
+}
+
+p {
+  font-size: $pSize;
+  line-height: $pLineheight;
+  margin: $pMargin;
+}
+
+
+h2{
+  border-bottom: 1px solid;
+}

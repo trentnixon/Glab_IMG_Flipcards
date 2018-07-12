@@ -1,0 +1,41 @@
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {}
+
+@media only screen and (min-width : 1200px) {}
+
+@media only screen and (min-width : 1024px) and (max-width : 1200px) {}
+
+@media only screen and (min-width : 992px) and (max-width : 1024px) {}
+
+@media only screen  and (min-width : 990px) and (max-width : 1024px) {}
+
+@media only screen  and (min-width : 990px)
+{
+    #FlipCard.ShopOpen{
+        .front{
+          opacity: .3;
+          margin: 10px 3px ;
+          transition: all .6s ease-in, visibility .75s linear;
+         height: 470px;
+        }
+  
+        .front:hover{
+          transition: all .6s ease-in, visibility .75s linear;
+          opacity: .8;
+        }
+        .back{
+          transition: all .6s ease-in, visibility .75s linear;
+          opacity: 1;
+          margin: 0px;
+        }
+    }
+  
+    #FlipCard.Shopclosed{
+      .front{
+        transition: all .6s ease-in, visibility .75s linear;
+        opacity: 1;
+        margin: 0px;
+      
+      }
+    }
+}

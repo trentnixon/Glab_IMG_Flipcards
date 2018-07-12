@@ -1,0 +1,112 @@
+
+
+// Use of  Mixin to color the buttons
+// Add new buttons to the list as required
+
+button{-webkit-appearance:initial}
+/**
+  Call to Action Button
+*/
+.Button_Action_CTA{
+  @include BTN($PrimaryColor,$SecondaryColor,$PrimaryColor) ;
+}
+.Button_Action_CTA:hover{
+  @include BTN($TertiaryColor,$SecondaryColor,$TertiaryColor) ;
+}
+
+/*
+// FLIP Button
+*/
+.Button_Action_FlipMe{
+  @include BTN($PrimaryColor,$SecondaryColor,$SecondaryColor) ;
+  
+  transition: transform .3s;
+  position: relative;
+  top: -85%;
+  left: 0;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  border: 5px solid $SecondaryColor;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+}
+.Button_Action_FlipMe:hover{
+  @include BTN($TertiaryColor,$PrimaryColor,$SecondaryColor) ;
+  @include ROTATEBTN(180deg);
+    transition: transform .3s;
+   
+}
+
+/* Open or Close All Cards btn, Located top of the page */
+.OpenAll{
+  float: right;
+  margin: 10px 0;
+  @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
+  transition: transform 1s;
+} 
+.OpenAll:hover{ 
+  @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
+  @include ROTATEBTN(180deg);
+  transition: transform 1s;
+}
+
+
+
+/* Float btn links to Glabs */
+.Button_Action_PZ{
+
+ @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
+
+
+  transition: transform .5s;
+
+  position: absolute;
+  top : 5px;
+  right: 5px;
+  font-size: .9em;
+  min-width: 30px;
+  min-height: 30px;
+}
+
+
+.Button_Action_PZ:hover{
+  @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
+  @include ROTATEBTN(180deg);
+  transition: transform .5s;
+}
+
+
+
+/**
+
+  Set Btn Styles for the Back side of the card
+
+*/
+
+.side-back{
+  // FLIP Button
+  .Button_Action_FlipMe{
+    @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
+    transition: transform .3s;
+  }
+  .Button_Action_FlipMe:hover{
+    
+    @include BTN($PrimaryColor, $TertiaryColor,$PrimaryColor) ;
+    @include ROTATEBTN(180deg);
+    transition: transform .3s;
+  }
+  
+  // CTA BUTTON
+  .Button_Action_CTA{
+    @include BTN($TertiaryColor,$PrimaryColor,$TertiaryColor) ;
+  }
+  .Button_Action_CTA:hover{
+    @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
+  }
+
+
+}

@@ -1,0 +1,152 @@
+{
+ "data":"Load the Data",
+ "ProjectHeader":"ING Dream Starter",
+ "ProjectSubHeader":"Why we all need to embrace mindful shopping",
+ "ProjectCopy":["There are a lot of buzz-words, confusing terminology, endless certifications along with greenwashing, that make deciphering what is and isn’t an ethical buy, a real minefield for consumers.","By condensing the key considerations to look for in each category the flip cards will empower consumers with the resources to make an informed decision."],
+
+ "ProjectLogo":"Client-Logo.png",
+ "ProjectSocial":{
+     "ShareUrl":"https://www.google.com",
+     "ShareHeader":"Share This Page",
+     "ShareCopy":"This is a test of the Social flipcard buttons",
+     "ShareImage":"",
+     "ShareThumb":""
+ },
+ "BodyCopy":[
+    {
+         "type":"p",
+         "copy":["Paragraph Example, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+    },{
+         "type":"h2",
+         "copy":["H2 Header"]
+    },{
+         "type":"h3",
+         "copy":["H3 Header"]
+    },{
+         "type":"p",
+         "copy":["Paragraph Example, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+    }
+ ],
+ "Cards":[
+     {
+         "front":{
+            "bgImage":"/assets/images/Card-002-Front.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Fashion",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/Card-002-Back.jpg",
+            
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Fashion",
+                "subheader":"",
+                "copy":[" eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+            } 
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/Card-001-Front.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Education",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/Card-001-Back.jpg",
+            
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Education",
+                "subheader":"",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+           }
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/Card-004-Front.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Food & Beverage",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/Card-004-Back.jpg",
+            
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Food & Beverage",
+                "subheader":"",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+            }
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/Card-003-Front.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Lifestyle",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/Card-003-Back.jpg",
+            
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Lifestyle",
+                "subheader":"",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+           }
+         }
+    }
+]
+}

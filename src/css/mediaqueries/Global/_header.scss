@@ -1,0 +1,25 @@
+#Header{
+
+    @include BMP($quaternaryColor,0%,10px 0px) ;
+
+    height:auto;
+    border-bottom: 5px solid $TertiaryColor;
+
+    h1{
+        display: inline;
+        @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0 0 10px) ; 
+       
+        color:$TertiaryHColor;
+    }
+
+    h2{
+        display: inline;
+        @include FONT($FontMedSize,$FontMedLine,$FontMedWeight,0 0 10px) ;
+        color:$TertiaryHColor;
+    }
+
+    p{
+        @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0 20% 10px 0 ) ; 
+    }
+    @import "./_Sponsor_Top.scss";
+} 

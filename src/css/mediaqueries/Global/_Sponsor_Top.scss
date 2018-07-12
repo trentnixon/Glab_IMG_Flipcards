@@ -1,0 +1,29 @@
+#Sponsor{
+
+    border-bottom: 2px solid $TertiaryColor;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    color:$PrimaryColor;
+
+    a{
+        color:$TertiaryHColor;
+        text-decoration: none;
+        line-height: 3.5em;
+        font-weight: 100;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    span{
+        line-height: 3.5em;
+        float: right;
+        color: $PrimaryPColor;
+    }
+    img{
+        width: 25%;
+        margin: 0 10px 0 10px;
+        float: right;
+        display: inline-block;
+    }
+}

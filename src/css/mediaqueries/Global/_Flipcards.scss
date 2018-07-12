@@ -1,0 +1,12 @@
+#FlipCard{
+
+  
+// Parent Container    
+    @include BMP($PrimaryColor,1% 1% 60px,2%) ;
+
+    // Card Frames
+    @import "../../components/Cards/_Card_Frame.scss";
+    @import "../../components/Cards/_Card_Inner.scss";
+    @import "../../components/Cards/_Card_Flip.scss";
+    @import "../../components/Cards/_Card_Media.scss";
+  }
