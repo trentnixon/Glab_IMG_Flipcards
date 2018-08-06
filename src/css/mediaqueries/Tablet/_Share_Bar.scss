@@ -27,5 +27,9 @@
 /* iPads (portrait) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
  
- 
+    #Glabs #ShareBar #ShareMe{top:0;}
+    #Glabs #ShareBar .col-sm-12 {
+        text-align: right !important;
+    }
+    #Glabs #ShareBar .ReadMore {top: -5px;}
 }

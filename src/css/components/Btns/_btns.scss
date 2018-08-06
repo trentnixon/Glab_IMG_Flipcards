@@ -11,7 +11,7 @@ button{-webkit-appearance:initial}
   @include BTN($PrimaryColor,$SecondaryColor,$PrimaryColor) ;
           
         .chevron.right:before {
-              left: 15px;
+              left: 7px;
               transform: rotate(45deg);
           }
 

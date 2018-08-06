@@ -55,8 +55,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -104,6 +102,24 @@ textarea:focus {
 
 /*- Typograpy  -*/
 /*- SCCS Properties -*/
+#Glabs .front, #Glabs .back {
+  border: none; }
+
+#Glabs .container {
+  border: none; }
+
+#Glabs a {
+  background-image: none; }
+
+#Glabs ul li:before {
+  display: none; }
+
+.ios div#article-header.article__header {
+  display: none; }
+
+.ios div#article-body.article__body {
+  padding: 0; }
+
 @font-face {
   font-display: swap;
   font-family: "GH Guardian Headline";
@@ -174,6 +190,7 @@ html body {
     height: 26px; } }
 
 #Glabs {
+  overflow: hidden;
   background-color: #363A40;
   margin: 0%;
   padding: 0%;
@@ -268,7 +285,7 @@ html body {
     background-color: #fff;
     border-color: #363A40; }
     #Glabs .Button_Action_CTA .chevron.right:before {
-      left: 15px;
+      left: 7px;
       transform: rotate(45deg); }
     #Glabs .Button_Action_CTA .chevron.bottom:before {
       top: 0;
@@ -549,7 +566,7 @@ html body {
             width: 100%; }
             #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Card_Bottom #CTA {
               background-color: transparent;
-              margin: 10px 0 50px;
+              margin: 10px 0 10px;
               padding: 0; }
             #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Card_Bottom .ActionBar {
               background-color: #fff;
@@ -583,7 +600,7 @@ html body {
         display: none; }
       #Glabs #FlipCard .card-container .side-back .Side-Content p {
         font-size: 1.4em;
-        margin: 0 20px 20px; }
+        margin: 0 10px 20px; }
     #Glabs #FlipCard .card-container {
       perspective: 1000px; }
       #Glabs #FlipCard .card-container .card-body {
@@ -840,10 +857,22 @@ html body {
         margin: 30px 0; } }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     #Glabs #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h2 {
-      font-size: 4em; } }
+      font-size: 4em; }
+    #Glabs #Glabs #FlipCard .card-container .side-back .Side-Content p {
+      font-size: 1.1em;
+      margin: 0 0px 10px; }
+    #Glabs .chevron {
+      display: none; }
+    #Glabs #Glabs #FlipCard .Card_Frame .card-container {
+      height: 615px; } }
   @media only screen and (max-width: 320px) {
     #Glabs #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h2 {
-      font-size: 4em; } }
+      font-size: 4em; }
+    #Glabs #Glabs #FlipCard .card-container .side-back .Side-Content p {
+      font-size: 1.1em;
+      margin: 0 0px 10px; }
+    #Glabs .chevron {
+      display: none; } }
   @media only screen and (min-width: 576px) and (max-width: 768px) {
     #Glabs #ShareBar {
       margin-top: 30px; }
@@ -908,9 +937,15 @@ html body {
         font-size: 4em;
         line-height: 1em; }
       #Glabs #FlipCard .Card_Frame {
-        background-color: #646464;
         margin: 0 0px 0px;
         padding: 0 0px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    #Glabs #Glabs #ShareBar #ShareMe {
+      top: 0; }
+    #Glabs #Glabs #ShareBar .col-sm-12 {
+      text-align: right !important; }
+    #Glabs #Glabs #ShareBar .ReadMore {
+      top: -5px; } }
   @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     #Glabs #Header #Sponsor img {
       margin: 7px 10px 0 10px; } }
@@ -948,6 +983,11 @@ html body {
       transition: all .6s ease-in, visibility .75s linear;
       opacity: 1;
       margin: 0px; } }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    #Glabs {
+      /* Styles */ }
+      #Glabs .card-container .side-back .Side-Content p {
+        font-size: 1.2em !important; } }
   @media only screen and (min-width: 768px) and (max-width: 992px) {
     #Glabs {
       /* Styles */ }

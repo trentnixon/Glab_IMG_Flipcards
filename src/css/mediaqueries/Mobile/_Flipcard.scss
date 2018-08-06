@@ -12,9 +12,14 @@
 /* Small Phones ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h2 {font-size: 4em;}
+    #Glabs #FlipCard .card-container .side-back .Side-Content p { font-size: 1.1em; margin: 0 0px 10px;}
+    .chevron{display: none;}
+    #Glabs #FlipCard .Card_Frame .card-container { height: 615px;}
 }
     
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
     #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h2 {font-size: 4em;}
+    #Glabs #FlipCard .card-container .side-back .Side-Content p { font-size: 1.1em; margin: 0 0px 10px;}
+    .chevron{display: none;}
 }

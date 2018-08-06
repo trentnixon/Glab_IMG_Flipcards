@@ -1,4 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+#Glabs .front, #Glabs .back {
+  border: none; }
+
+#Glabs .container {
+  border: none; }
+
+#Glabs a {
+  background-image: none; }
+
+#Glabs ul li:before {
+  display: none; }
+
+.ios div#article-header.article__header {
+  display: none; }
+
+.ios div#article-body.article__body {
+  padding: 0; }
+
 @font-face {
   font-display: swap;
   font-family: "GH Guardian Headline";

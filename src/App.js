@@ -36,7 +36,7 @@ Content.start(http+Json, http+Path+Images);
 /**
  * GA Commands
  */
-ReactGA.initialize('UA-76345112-10');
+ReactGA.initialize('UA-76345112-13');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Raise an Event is the user scrolls to the bottom of the Page

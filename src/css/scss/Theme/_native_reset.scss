@@ -1,0 +1,30 @@
+// This file is used to reset the Native IOS and Android styles
+
+// Parent ID of the template. Amend for alternative projects outside of the Glabs Team
+#Glabs{
+
+    // Project Specific Styles
+    // These can be deleted and amended as required
+
+    .front,.back{border:none; }
+
+    // Global
+    .container{ border:none;}
+
+    a{
+        background-image: none;
+    }
+    ul{
+        li:before{
+            display: none;
+        }
+    }
+}
+
+// IOS Specific 
+.ios{
+   
+        div#article-header.article__header{ display: none;}
+        div#article-body.article__body{ padding: 0;}
+   
+}
