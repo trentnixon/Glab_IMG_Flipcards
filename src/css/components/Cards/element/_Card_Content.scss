@@ -1,3 +1,10 @@
 .Side-Content{
     @include BMP(transparent,0,0 15px) ;
+
+    a{
+        text-decoration: underline;
+        color: $PrimaryHColor;
+    }
+
+    strong{ font-weight: 800;}
 } 

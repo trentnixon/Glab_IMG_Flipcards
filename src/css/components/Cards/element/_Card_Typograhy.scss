@@ -1,11 +1,17 @@
 
-            h1{  @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0) ; }
+            h1{  
+                @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0) ; 
+                color:$PrimaryHColor;}
 
             h2{  
-                @include FONT(5em,$FontLargeLine,$FontLargeWeight,20px 0 0px 0px) ; 
-                color:$SecondaryHColor;
+                @include FONT(6em,.9em,$FontLargeWeight,5px 0 0px 0px) ; 
+                color:$PrimaryHColor;
             }
 
-            h3{ @include FONT($FontMedSize,$FontMedLine,$FontMedWeight,0) ;}
+            h3{ 
+                @include FONT($FontMedSize,$FontMedLine,$FontMedWeight,0) ;
+                color:$PrimaryHColor;}
 
-            p{ @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0) ; }
+            p{ 
+                @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0) ; 
+                color:$PrimaryHColor;}

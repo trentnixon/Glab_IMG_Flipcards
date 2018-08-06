@@ -8,7 +8,7 @@
    
 }
 @media only screen and (min-width : 1024px) and (max-width : 1200px) {
-   
+    #Header{ #Sponsor{ img{ margin: 7px 10px 0 10px;}}}
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1024px) {
@@ -17,4 +17,23 @@
 
 @media only screen  and (min-width : 990px) and (max-width : 1024px) {
     /* Styles */
+    header{
+        #Sponsor{ 
+            a{line-height: 1.5em;}
+        }
+    }
+}
+
+@media only screen  and (min-width : 768px) and (max-width : 992px) {
+    /* Styles */
+    #Glabs {
+            #Header{
+                    #Sponsor{ 
+                            a{line-height: 1.5em;}
+                            img{ width: 30%; margin: 9px 10px 0 10px;}
+                    }
+                    h1{    margin: 0 5% 0 0;}
+                    p{    margin: 20px 5% 40px 0;}
+            }
+        }
 }

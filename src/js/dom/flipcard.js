@@ -4,7 +4,7 @@ import CardFrame from "../components/Cards/Card_Frame";
 // React component for the card (main component)
 // Select  the default framework for the cards
  
-const  DefaultLayout="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 Card_Frame";
+const  DefaultLayout="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 Card_Frame";
 let delay=0,active='Shopclosed';
 // This Component will Loop through the "Card" object stored in Redux
 // And create the base Frame for the Flipcards

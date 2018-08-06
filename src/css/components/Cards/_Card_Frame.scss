@@ -1,10 +1,10 @@
 .Card_Frame{
 
-    @include BMP($PrimaryColor,0 0 40px 0 ,0%) ;
+    @include BMP($PrimaryColor,0 auto 30px ,auto) ;
 
     .card-container {
 
-            height:490px;
+            height:700px;
 
             @include BMP($PrimaryColor,0,3px);
             
@@ -23,4 +23,57 @@
                 
             }
     } 
+}
+
+$BackEven:#6492C1;
+$BackOdd:#E9928F;
+$btnOdd:#4C85C0;
+$btnEven:#EC817D;
+.Card_Frame:nth-child(1){
+    .side-back{ background-color: $BackEven;}
+    .Button_Action_CTA{ @include BTN($PrimaryHColor,$btnOdd,$btnOdd) ; }
+}
+
+.Card_Frame:nth-child(2){
+    .side-back{ background-color: $BackOdd;}
+    .Button_Action_CTA{ @include BTN($PrimaryHColor,$btnEven,$btnEven) ; }
+}
+
+.Card_Frame:nth-child(3){
+   
+    .side-back{ background-color: $BackEven;}
+    .Button_Action_CTA{ @include BTN($PrimaryHColor,$btnOdd,$btnOdd) ; }
+}
+
+.Card_Frame:nth-child(4){
+   
+    .side-back{ background-color: $BackOdd;}
+    .Button_Action_CTA{ @include BTN($PrimaryHColor,$btnEven,$btnEven) ; }
+}
+.Card_Frame:nth-child(5){
+   
+   .side-back{ background-color: $BackEven;}
+   .Button_Action_CTA{ @include BTN($PrimaryHColor,$btnOdd,$btnOdd) ; }
+}
+
+.Card_Frame:nth-child(6){ 
+    .Card_Bottom{ display: none;} 
+    .Side-Content{
+        position: absolute;
+        top: 29%;
+        height: 20%;
+        left: 0;
+        right: 0;
+        
+        p{
+            font-size: 2em !important;
+            text-align: center;
+            color: $SecondaryPColor !important;
+            line-height: 1.2em !important;
+        }
+        p:nth-child(2){
+            color: $TertiaryColor !important;
+        }
+   
+    }
 }

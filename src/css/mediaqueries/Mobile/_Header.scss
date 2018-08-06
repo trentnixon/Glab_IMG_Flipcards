@@ -1,8 +1,13 @@
 /* Smartphones (portrait and landscape) ----------- */
 /* Large Phones ----------- */
 @media only screen and (min-width : 576px) and (max-width : 768px) {
-    header{
-        #Sponsor{ img {width: 50%;} }
+    #Header{
+        h1{    margin: 0 5% 0 0;}
+        p{    margin: 20px 5% 40px 0;}
+
+        #Sponsor{ 
+            a{line-height: 1.5em;}
+            img {width: 50%; margin-top: 5px } }
         
         .container{
             .Headers{
@@ -12,9 +17,9 @@
                 h1:nth-child(2){ font-size: 4em;}  
                 h1:nth-child(3){ font-size: 4em;}  
                 h1:nth-child(3):after{bottom: 65px; height: 130px;}
+              
             }
             p{
-               
                 margin: 30px 0;
             }
         } 
@@ -25,14 +30,15 @@
 /* Medium Phones ----------- */
 @media only screen and (min-width : 480px) and (max-width : 576px) {
 
-    header{
-      
+    #Header{
+        h1{    margin: 0 5% 0 0;}
+        p{    margin: 20px 5% 40px 0;}
         #Sponsor{
             margin-bottom: 20px;
             border-bottom: unset;
             a{ line-height: 2.5em;}
             span{ float: left; line-height: 3em;}
-            img {width: 20% ; float: unset;}
+            img {width: 20% ; float: unset; margin: 7px 10px 0 10px; }
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;
@@ -65,21 +71,27 @@
 /* Small Phones ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
-    header{
-      
+    #Header{
+        h1{    margin: 0 5% 0 0;}
+        p{    margin: 20px 5% 40px 0;}
+
         #Sponsor{
             margin-bottom: 20px;
             border-bottom: unset;
-            a{ line-height: 2.5em;}
+            a{ line-height: 1.3em;}
             span{ float: left; line-height: 3em;}
-            img {width: 20% ; float: unset;}
+            img {width: 38% ; float: unset; margin: 2px 10px 0 10px;}
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;
+                margin: 15px;
+                padding-bottom: 10px;
                
             }
             .text-right{
                 text-align: left !important;
+                margin: 0 15px;
+                padding-bottom: 10px;
                 
             }
             
@@ -107,21 +119,28 @@
     
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-    header{
-      
+    #Header{
+        h1{    margin: 0 5% 0 0;}
+        p{    margin: 20px 5% 40px 0;}
+
         #Sponsor{
             margin-bottom: 20px;
             border-bottom: unset;
-            a{ line-height: 2.5em;}
+            a{ line-height: 1.2em;}
             span{ float: left; line-height: 3em;}
-            img {width: 20% ; float: unset;}
+            img {width: 38% ; float: unset; margin: 2px 10px 0 10px;}
             
             .text-left{
+               
                 border-bottom: 2px solid #80D1D6;
+                margin: 15px;
+                padding-bottom: 10px;
                
             }
             .text-right{
                 text-align: left !important;
+                margin: 0 15px;
+                padding-bottom: 10px;
                 
             }
             

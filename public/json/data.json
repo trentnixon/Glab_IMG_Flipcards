@@ -1,8 +1,8 @@
 {
  "data":"Load the Data",
- "ProjectHeader":"ING Dream Starter",
+ "ProjectHeader":"Change the world one purchase at a time with our ethical shopping guide",
  "ProjectSubHeader":"Why we all need to embrace mindful shopping",
- "ProjectCopy":["There are a lot of buzz-words, confusing terminology, endless certifications along with greenwashing, that make deciphering what is and isn’t an ethical buy, a real minefield for consumers.","By condensing the key considerations to look for in each category the flip cards will empower consumers with the resources to make an informed decision."],
+ "ProjectCopy":["Each and every one of us has the power to make a positive impact with every dollar we spend. As conscious consumers – making informed choices that align with our personal values – we can all help to bring about positive change for both our planet and its people. The good news is there is a growing number of socially conscious businesses who are working to make a difference, be that through sustainable practices, ethical work conditions, employing disadvantaged members of our society or by donating a proportion of their profits. By supporting these innovative businesses, you are not only buying a great product but also helping to bring about positive social and environmental change. This guide will empower you to make conscious purchases that will help to create a better world. Happy mindful shopping!"],
 
  "ProjectLogo":"Client-Logo.png",
  "ProjectSocial":{
@@ -12,21 +12,7 @@
      "ShareImage":"",
      "ShareThumb":""
  },
- "BodyCopy":[
-    {
-         "type":"p",
-         "copy":["Paragraph Example, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
-    },{
-         "type":"h2",
-         "copy":["H2 Header"]
-    },{
-         "type":"h3",
-         "copy":["H3 Header"]
-    },{
-         "type":"p",
-         "copy":["Paragraph Example, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
-    }
- ],
+ "BodyCopy":[],
  "Cards":[
      {
          "front":{
@@ -38,7 +24,7 @@
             "content":{
                 "type":"basic",
                 "header":"Fashion",
-                "subheader":"",
+                "subheader":"An ethical shopping guide",
                 "copy":""
             }
          },
@@ -50,11 +36,14 @@
                 "media":null, 
                 "src":""
             },
+            "CTA":{"location":"https://campaigns.ing.com.au/DreamStarter/Shop?category=fashion%3Futm_source%3DGuardian&utm_medium=FlipCard&utm_campaign=FathersDayGTG18","Label":"Explore more ethical fashion"},
             "content":{
                 "type":"basic",
                 "header":"Fashion",
-                "subheader":"",
-                "copy":[" eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+                "subheader":"An ethical shopping guide",
+                "copy":["Buying well-made, high-quality clothing that is produced ethically and sustainably is not only good for the industry and its workers but also the planet as it outlasts and trumps cheap, disposable fast-fashion any day. The <a href=\"https://goodonyou.eco/\" taget=\"_blank\">Good On You</a> app rates more than 1200 brands on how they treat people, the planet and animals. Ethical labels that are redesigning the fashion landscape include <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/TheSocialOutfit\" target=\"_blank\">The Social Outfit</a>, who repurpose fabric that would otherwise end up as landfill and create their own designer fashion; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/OceanZen\" target=\"_blank\">OceanZen</a>, a sustainable swimwear brand that makes bikinis out of ocean waste plastic and other debris; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/WillandBear\" target=\"_blank\">Will & Bear</a>, who produce unisex hats that help protect the environment by planting 10 trees for every hat sold; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Support-now/Bravery-Co\" target=\"_blank\">Bravery Co</a>, who design bold and gorgeous headscarves for young women affected by cancer.",
+                        "<strong>Labelling tips:</strong> Look for Fairtrade, Ethical Clothing Australia and the Global Organic Textile Standard certifications."
+                        ]
             } 
          }
     },
@@ -67,24 +56,25 @@
             },
             "content":{
                 "type":"basic",
-                "header":"Education",
-                "subheader":"",
+                "header":"Food & Beverages",
+                "subheader":"An ethical shopping guide",
                 "copy":""
             }
          },
          "back":{
             
             "bgImage":"/assets/images/Card-001-Back.jpg",
-            
+            "CTA":{"location":"https://campaigns.ing.com.au/DreamStarter/Shop?category=food%3Futm_source%3DGuardian&utm_medium=FlipCard&utm_campaign=FathersDayGTG18","Label":"Explore more sustainable food and beverage "},
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"Education",
-                "subheader":"",
-                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+                "header":"Food & Beverages",
+                "subheader":"An ethical shopping guide",
+                "copy":["Choose fruit and vegetables that are locally grown (less food miles), in season (less likely to be cold stored and more nutritional value) and don’t come in plastic packaging (less waste). When buying meat, eggs and dairy, choose organic, free-range, grass-fed and sustainably raised options. When selecting seafood, check out the <a href=\"https://www.sustainableseafood.org.au/\" target=\"_blank\"> sustainable seafood app</a>. Socially minded food businesses include <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/CremaJoe\" target=\"_blank\">Crema Joe</a>, who has tackled the coffee pod industry by producing reusable and sustainable pods; Fairtrade certified <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/EatMeChutney\" target=\"_blank\">Eat Me Chutneys</a>, who are helping reduce food waste by using unwanted “wonky” produce to make their range of chutneys; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/Warndu\" target=\"_blank\"> Warndu</a>, a delicious native produce company that provides Indigenous Australians with jobs and training; and <a href=\"https://campaigns.ing.com.au/Dreamstarter/Support-now/Amber-Drop-Honey\" target=\"_blank\">Amber Drop Honey</a>, who is providing shared manufacturing and educational facilities for Australian beekeepers.",
+                        "<strong>Labelling tips:</strong> Look for non-genetically modified (GM) foods as well as Fairtrade certified, which ensures fair working conditions and wages, free-range, grass-fed and certified organic."]
            }
          }
     },
@@ -97,24 +87,25 @@
             },
             "content":{
                 "type":"basic",
-                "header":"Food & Beverage",
-                "subheader":"",
+                "header":"Lifestyle & Beauty",
+                "subheader":"An ethical shopping guide",
                 "copy":""
             }
          },
          "back":{
             
             "bgImage":"/assets/images/Card-004-Back.jpg",
-            
+            "CTA":{"location":"https://campaigns.ing.com.au/DreamStarter/Shop?category=lifestyle%3Futm_source%3DGuardian&utm_medium=FlipCard&utm_campaign=FathersDayGTG18","Label":"Explore more ethical lifestyle and beauty"},
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"Food & Beverage",
-                "subheader":"",
-                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+                "header":"Lifestyle & Beauty",
+                "subheader":"An ethical shopping guide",
+                "copy":["Choosing non-toxic lifestyle and beauty products not only reduces your personal exposure to harmful chemicals, but also the planet’s.  The <a href=\"https://www.ethical.org.au/3.4.2/\" target=\"_blank\">Shop Ethical!</a> app rates brands according to a number of categories including nanotechnology, chemicals and microplastics. Also, the <a href=\"https://choosecrueltyfree.org.au/\" target=\"_blank\">Choose Cruelty Free</a> app identifies products that are cruelty-free, as well as vegan friendly. Brands that are giving back include <a href=\"https://campaigns.ing.com.au/Dreamstarter/Support-now/Raise-The-Bar\" target=\"_blank\">Raise The Bar</a>, who are reducing waste by recycling coffee grounds into eco-friendly body scrubs; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/CleanCoastCollective\" target=\"_blank\">Clean Coast Collective</a> organises regular community beach clean-ups and awareness campaigns to protect our marine environment; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/TwoGood\" target=\"_blank\">Two Good Co</a> provides meals along with salon quality care packs to survivors of domestic violence living in women’s refuges; <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/Seljak\" target=\"_blank\">Seljak Brand</a> has a range of closed-loop luxury recycled blankets and for every 10 blankets sold it donates one to Melbourne’s Asylum Seeker Resource Centre.",
+                        "<strong>Labelling tips:</strong> Look for the Certified Organic and Not Tested On Animals logos, plant-based ingredients and minimal packaging."]
             }
          }
     },
@@ -127,8 +118,8 @@
             },
             "content":{
                 "type":"basic",
-                "header":"Lifestyle",
-                "subheader":"",
+                "header":"Education",
+                "subheader":"An ethical shopping guide",
                 "copy":""
             }
          },
@@ -140,13 +131,62 @@
                 "media":null, 
                 "src":""
             },
+            "CTA":{"location":"https://campaigns.ing.com.au/DreamStarter/Shop?category=education%3Futm_source%3DGuardian&utm_medium=FlipCard&utm_campaign=FathersDayGTG18","Label":"Explore more Education with a purpose"},
             "content":{
                 "type":"basic",
-                "header":"Lifestyle",
-                "subheader":"",
-                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+                "header":"Education",
+                "subheader":"An ethical shopping guide",
+                "copy":["We live in an age where inclusivity and community are becoming cornerstones of the modern education landscape. While we still have a way to go, inroads are being made every day. Ultimately, ethical education is the key to appreciating the qualities that make each one of us unique and help us to reach our full potential. By supporting ethically driven educational initiatives and empowering our youth, we are building a better future for all. Advocates for accessible and ethical education include <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/Brainchild\" target=\"_blank\"> BrainChild Academy </a>, which has developed an innovative program that exposes primary-aged children to technology at an age when they are most naturally curious; <a href=\"http://fergus-delilah.com/\" target=\"_blank\">Fergus & Delilah</a>, a children’s book that promotes an inclusive society where diversity is valued and all children have the opportunity to realise their rights and reach their full potential; <a href=\"http://themindfulwealthmovement.com/\" taret=\"_blank\">The Mindful Wealth Movement</a>, a social enterprise that aims to empower women to better manage their money."]
            }
          }
-    }
+    },
+    {
+        "front":{
+           "bgImage":"/assets/images/Card-005-Front.jpg",
+           "banner":{
+               "media":null,
+               "src":""
+           },
+           "content":{
+               "type":"basic",
+               "header":"Art and Stationery",
+               "subheader":"An ethical shopping guide",
+               "copy":""
+           }
+        },
+        "back":{
+           "bgImage":"/assets/images/Card-003-Back.jpg",
+           "CTA":{"location":"https://campaigns.ing.com.au/DreamStarter/Shop?category=art%3Futm_source%3DGuardian&utm_medium=FlipCard&utm_campaign=FathersDayGTG18","Label":"Explore more sustainable Art & Stationery"},
+           "banner":{
+               "media":null, 
+               "src":""
+           },
+           "content":{
+               "type":"basic",
+               "header":"Art and Stationery",
+               "subheader":"An ethical shopping guide",
+               "copy":["The paper industry is the world’s fourth largest industrial user of energy and a significant emitter of greenhouses gases, so choose wisely for positive impact. And when it comes to art, think – and buy – ethical. Socially responsible enterprises include <a href=\"https://campaigns.ing.com.au/Dreamstarter/Success-stories/WordsWithHeart\" target=\"_blank\">Words With Heart</a>, an eco-friendly stationery and printery business that funds education projects for women and girls in the developing world – just one extra year of education for a girl can increase their earning capacity by 20 per cent; <a href=\"https://www.northhome.org/collections/the-warlu-art-collection\" target=\"_blank\">NORTH</a>, a not-for-profit organisation that supports remote Indigenous artists and their communities and facilitates ethical purchases. NORTH is also a member of the Indigenous Art Code of ethics, ensuring that transactions are conducted in a way that empowers artists.",
+                "<strong>Labelling tips:</strong> Look for stationery made from recycled paper stock and using vegetable inks. Also Fairtrade certified. When buying Indigenous art, look for works sold by reputable dealers that abide by the <a href=\"https://indigenousartcode.org\" target=\"_blank\">Indigenous Art Code</a>."]
+          }
+        }
+   },
+   {
+       "front":{
+          "bgImage":"/assets/images/back-bg.jpg",
+          "banner":{},
+          "content":{
+              "type":"basic",
+              "header":"",
+              "subheader":"",
+              "copy":["Meet the new","socially minded start-ups","realising the dream of","positive change"]
+          }
+       },
+       "back":{
+          "bgImage":"/assets/images/Card-003-Back.jpg",
+          "banner":{},
+          "content":{}
+       }
+  }
 ]
 }
+

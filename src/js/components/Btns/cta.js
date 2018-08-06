@@ -14,8 +14,9 @@ export default class Card extends React.Component {
                 className="Button_Action_CTA" 
                 onClick={()=>{GA('Interactive Card Click',this.props.cta.Label,this.props.cta.location)} }
             > 
-                  {this.props.cta.Label}  
-            </Button>
+                  {this.props.cta.Label} 
+                  <span className="chevron right"></span>
+            </Button> 
           </div>
       )
     }

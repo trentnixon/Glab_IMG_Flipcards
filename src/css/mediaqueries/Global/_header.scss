@@ -3,11 +3,11 @@
     @include BMP($quaternaryColor,0%,10px 0px) ;
 
     height:auto;
-    border-bottom: 5px solid $TertiaryColor;
+    
 
     h1{
-        display: inline;
-        @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0 0 10px) ; 
+        display:inline-block;
+        @include FONT(2.3em,$FontLargeLine,$FontLargeWeight,0 35% 0 0) ; 
        
         color:$TertiaryHColor;
     }
@@ -19,7 +19,8 @@
     }
 
     p{
-        @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0 20% 10px 0 ) ; 
+        @include FONT($FontSmallSize,1.4em,bold,20px 35% 40px 0 ) ; 
+        
     }
     @import "./_Sponsor_Top.scss";
 } 

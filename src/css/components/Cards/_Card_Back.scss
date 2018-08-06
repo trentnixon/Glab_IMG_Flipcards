@@ -2,22 +2,22 @@
 
     .side-back{
             z-index: 2;
-            padding: 0;
+            padding: 5% 0 0 0 ;
             transform: rotateY(180deg);
-            
            
-            background-color: $PrimaryColor; 
-           
-
-            .Side-Content{ background-color: $PrimaryColor;}
-            h1{ color: $SecondaryColor; }
-            h2{ 
-                    color: $TertiaryColor; 
-                    padding: 10px 0 5px 0;
+           background-image: none !important;
+       
+            .Side-Content{ 
+                h1{ }
+                h2{ display: none;
+                }
+                h3{ display: none;
+                }
+                    
+                p{ 
+                        font-size: 1.4em;
+                        margin: 0 20px 20px; 
+                }
             }
-            h3{ color: $SecondaryColor; 
-                padding: 0 0 20px 0 ;}
-                
-            p{ color: $SecondaryPColor; }
         }
 }

@@ -9,6 +9,35 @@ button{-webkit-appearance:initial}
 */
 .Button_Action_CTA{
   @include BTN($PrimaryColor,$SecondaryColor,$PrimaryColor) ;
+          
+        .chevron.right:before {
+              left: 15px;
+              transform: rotate(45deg);
+          }
+
+          .chevron.bottom:before {
+              top: 0;
+              transform: rotate(135deg);
+          }
+
+          .chevron.left:before {
+              left: 0.25em;
+              transform: rotate(-135deg);
+          }
+
+          .chevron::before {
+              border-style: solid;
+              border-width: 0.15em 0.15em 0 0;
+              content: '';
+              display: inline-block;
+              height: 0.45em;
+              left: 0.15em;
+              position: relative;
+              top: .4em;
+              transform: rotate(-45deg);
+              vertical-align: top;
+              width: 0.45em;
+          } 
 }
 .Button_Action_CTA:hover{
   @include BTN($TertiaryColor,$SecondaryColor,$TertiaryColor) ;
@@ -18,11 +47,11 @@ button{-webkit-appearance:initial}
 // FLIP Button
 */
 .Button_Action_FlipMe{
-  @include BTN($PrimaryColor,$SecondaryColor,$SecondaryColor) ;
+  @include BTN($PrimaryHColor,$SecondaryColor,$SecondaryColor) ;
   
   transition: transform .3s;
   position: relative;
-  top: -85%;
+  top: 0%;
   left: 0;
   right: 0px;
   margin-left: auto;
@@ -33,51 +62,16 @@ button{-webkit-appearance:initial}
   height: 60px;
   cursor: pointer;
 
+  i{ font-size: 45px; }
+
 }
 .Button_Action_FlipMe:hover{
-  @include BTN($TertiaryColor,$PrimaryColor,$SecondaryColor) ;
+  @include BTN($PrimaryHColor,$SecondaryColor,$SecondaryColor) ;
   @include ROTATEBTN(180deg);
     transition: transform .3s;
-   
-}
-
-/* Open or Close All Cards btn, Located top of the page */
-.OpenAll{
-  float: right;
-  margin: 10px 0;
-  @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
-  transition: transform 1s;
-} 
-.OpenAll:hover{ 
-  @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
-  @include ROTATEBTN(180deg);
-  transition: transform 1s;
 }
 
 
-
-/* Float btn links to Glabs */
-.Button_Action_PZ{
-
- @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
-
-
-  transition: transform .5s;
-
-  position: absolute;
-  top : 5px;
-  right: 5px;
-  font-size: .9em;
-  min-width: 30px;
-  min-height: 30px;
-}
-
-
-.Button_Action_PZ:hover{
-  @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
-  @include ROTATEBTN(180deg);
-  transition: transform .5s;
-}
 
 
 
@@ -90,23 +84,23 @@ button{-webkit-appearance:initial}
 .side-back{
   // FLIP Button
   .Button_Action_FlipMe{
-    @include BTN($TertiaryColor,$PrimaryColor,$PrimaryColor) ;
+    @include BTN($PrimaryHColor,$SecondaryColor,$SecondaryColor) ;
     transition: transform .3s;
   }
   .Button_Action_FlipMe:hover{
     
-    @include BTN($PrimaryColor, $TertiaryColor,$PrimaryColor) ;
+    @include BTN($PrimaryHColor,$SecondaryColor,$SecondaryColor) ;
     @include ROTATEBTN(180deg);
     transition: transform .3s;
   }
   
   // CTA BUTTON
   .Button_Action_CTA{
-    @include BTN($TertiaryColor,$PrimaryColor,$TertiaryColor) ;
+    @include BTN($PrimaryHColor,$PrimaryColor,$PrimaryColor) ;
+    width: 85%;
+    padding: 12px;
   }
   .Button_Action_CTA:hover{
-    @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
+    @include BTN($PrimaryHColor,$TertiaryColor,$PrimaryColor) ;
   }
-
-
 }

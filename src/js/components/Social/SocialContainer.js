@@ -5,13 +5,13 @@ import {GA} from "../../../actions/ga";
 // Component Documentation 
 // https://www.npmjs.com/package/react-share
 import {
-    FacebookShareButton,FacebookIcon,TwitterShareButton,TwitterIcon
+    FacebookShareButton,FacebookIcon,TwitterShareButton,TwitterIcon,EmailShareButton, EmailIcon
   } from 'react-share';
 
 
 // To DO: 
 // Split each social option into components!
-let shareUrl=null, title=null, iconSize=32;
+let shareUrl=null, title=null, body=null, iconSize=32;
 export default class SocialBar extends React.Component {
 
     componentWillMount(){ 
@@ -24,7 +24,8 @@ export default class SocialBar extends React.Component {
         }
         
         title = this.props.UI.Data.ProjectSocial.ShareHeader;
- 
+        body = this.props.UI.Data.ProjectSocial.ProjectSubHeader + ' ' + shareUrl;
+        
     } 
   render() {
     return(
@@ -60,6 +61,13 @@ export default class SocialBar extends React.Component {
                     round />
                 </TwitterShareButton>
                 </li>
+            <li
+                            onClick={()=>{GA('Link Clicked','Social Share','Email')} }
+                        >
+                            <EmailShareButton  url={shareUrl} subject={title} body={body} className="FooterShareIcon">
+                                <EmailIcon size={iconSize}  round/>
+                            </EmailShareButton>
+                        </li>
             </ul>
         </div>
      

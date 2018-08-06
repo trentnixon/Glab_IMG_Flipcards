@@ -7,13 +7,14 @@
             background-color:$SecondaryColor;
             h2{ 
                    
-                    color: $SecondaryColor;
+                    font-family: $FontFamilyHeader;
                     text-align: center;
-                    padding-top: 2.7em;
+                    padding-top: 20px;
             }
             h3{ 
-                    color: $TertiaryColor; 
+                    
                     text-align: center;
+                    padding-top: 1.5em;
             }
             p{ 
                     color: $SecondaryColor; 

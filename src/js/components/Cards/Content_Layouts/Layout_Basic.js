@@ -8,8 +8,9 @@ export default class Card extends React.Component {
   render() {
     return(
        <div>
-            <h2>{this.props.content.header}</h2>
             <h3>{this.props.content.subheader}</h3>
+            <h2>{this.props.content.header}</h2>
+            
             <CardParagraph p={this.props.content.copy}/>
         </div>
     )
